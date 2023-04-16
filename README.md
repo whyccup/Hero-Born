@@ -39,3 +39,19 @@ Unity3D Learning Demo
 
     胜利：收集到所有的医疗包
     失败：人物血量被消耗完
+
+## 编辑器工具
+
+1. 手形(Hand):平移以更改在场景中的位置
+2. 移动(Move): 拖动相应轴箭头，分别沿x、y和z轴移动对象
+3. 旋转(Rotate): 拖转标记的相应部位来调整对象的旋转
+4. 缩放(Scale): 拖动指定轴来修改对象的比例。
+5. 矩形变换(Rect Transform):移动、旋转和缩放工具功能三合一。移动、旋转和缩放(Move,Rotate,and Scale): 可同时控制对象的位置旋转和缩放，但与矩形变换使用的视觉辅助工具不同。
+6. 自定义编辑器工具(Custom Editor Tools): 访问为编辑器创建的所有自定义工具(更多信息请参阅文档: <https://docs.unity3dcom/2020.1/Documentation/ScriptReference/EditorTools.EditorTool.html>)。
+
+## 摄像机操作
+
+1. 需要改变摄像机的角度，可以按住鼠标右键来操作
+2. 需要平移摄像机，可以按住鼠标中键来挪动
+3. 需要四处移动但保持摄像机方向不变，可以按住鼠标右键并 A、D 键分别向左和向右移动。
+4. 按F键可以放大并聚焦在选定的 GameObject 上
