@@ -2,6 +2,14 @@
 
 Unity3D Learning Demo
 
+## IDEA and debugging
+
+ [more information](https://blog.walterlv.com/post/unity-starter-install-and-integrated-with-visual-studio.html)
+
+1. 在 `Unity > Settings > External Tools > External Script Editor` 选择 Visual Studio
+2. 勾选所有 `Generate .csproj files for` 下的 checkbox
+3. 右键你要打开的 cs 文件，选择 `Open C# project`
+
 ## 游戏设计规划点
 
 1. 概念:对游戏的全局理念和设计，包括游戏类型和玩法风格。
