@@ -17,5 +17,5 @@ public class PlayerBehavior : MonoBehaviour
 
         this.transform.Translate(Vector3.forward * vInput * Time.deltaTime);
         this.transform.Rotate(Vector3.up * hInput * Time.deltaTime);
-    } 
+    }
 }
