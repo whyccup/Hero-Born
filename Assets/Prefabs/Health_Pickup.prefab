@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 237457550404321576}
   - component: {fileID: 237457550404321579}
   m_Layer: 0
-  m_Name: Pickup
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ Animator:
   m_GameObject: {fileID: 237457550404321574}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3183ff0318e6140af872023ca63f2bf6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8ea0f1341cdd2427a99dac93bb7c05a5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
