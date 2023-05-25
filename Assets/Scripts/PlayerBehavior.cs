@@ -21,8 +21,8 @@ public class PlayerBehavior : MonoBehaviour
     {
         vInput = Input.GetAxis("Vertical") * moveSpeed;
         hInput = Input.GetAxis("Horizontal") * rotateSpeed;
-        //this.transform.Translate(Vector3.forward * vInput * Time.deltaTime);
-        //this.transform.Rotate(Vector3.up * hInput * Time.deltaTime);
+        // this.transform.Translate(Vector3.forward * vInput * Time.deltaTime);
+        // this.transform.Rotate(Vector3.up * hInput * Time.deltaTime);
     }
 
 	private void FixedUpdate()

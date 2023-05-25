@@ -111,7 +111,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 8
+  m_Radius: 10
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2806490969505235727
 MonoBehaviour:
@@ -125,3 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bea8ad2e7359c460fa4784b2854735cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyOffset: {x: 0, y: 1, z: 2.6}
