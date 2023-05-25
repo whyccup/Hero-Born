@@ -2,14 +2,6 @@
 
 Unity3D Learning Demo
 
-## IDEA and debugging
-
- [more information](https://blog.walterlv.com/post/unity-starter-install-and-integrated-with-visual-studio.html)
-
-1. 在 `Unity > Settings > External Tools > External Script Editor` 选择 Visual Studio
-2. 勾选所有 `Generate .csproj files for` 下的 checkbox
-3. 右键你要打开的 cs 文件，选择 `Open C# project`
-
 ## 游戏设计规划点
 
 1. 概念:对游戏的全局理念和设计，包括游戏类型和玩法风格。
@@ -63,3 +55,21 @@ Unity3D Learning Demo
 2. 需要平移摄像机，可以按住鼠标中键来挪动
 3. 需要四处移动但保持摄像机方向不变，可以按住鼠标右键并 A、D 键分别向左和向右移动。
 4. 按F键可以放大并聚焦在选定的 GameObject 上
+
+## 如何让 Unity 为 Visual Studio 提供编程/Debug支持
+
+![设置图例](./Doc/Screenshot/%E5%A6%82%E4%BD%95%E8%AE%A9%20Unity%20%E4%B8%BA%20Visual%20Studio%20%E6%8F%90%E4%BE%9B%E7%BC%96%E7%A8%8B%E6%94%AF%E6%8C%81.png)
+
+1. Unity > Settings > External Tools
+2. External Script Editor 选择 Visual Studio
+3. Generate .csproj files for 全部勾选
+4. 右键 C# 脚本，点击 Open C# Project
+
+[more information](https://blog.walterlv.com/post/unity-starter-install-and-integrated-with-visual-studio.html)
+
+## 如何让 Visual Studio 提供良好的 C# 编程体验
+
+![设置图例](./Doc/Screenshot/%E5%A6%82%E4%BD%95%E8%AE%A9%20Visual%20Studio%20%E6%8F%90%E4%BE%9B%E8%89%AF%E5%A5%BD%E7%9A%84%20C%23%20%E7%BC%96%E7%A8%8B%E4%BD%93%E9%AA%8C.png)
+
+1. Visual Studio > Preferences > Behavior > C#
+2. 除了show remark in Quick Info，其他全都勾选
